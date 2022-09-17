@@ -245,15 +245,15 @@ export const experience = [
 		role: "Frontend Developer",
 		company: "Intellitech IT Smart Consulting",
 		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Apr 2022 – Jun 2022",
-		desc: "I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.",
+		date: "September 2022 ",
+		desc: "I'm working as  frontend web developer to design web based admin dashboards for mulitple apps using React.JS, MUI, Node.js and some other libraries.",
 	},
 	{
 		role: "API Engineer",
-		company: "Duseca Software",
+		company: "Noor E-Commerce",
 		companylogo: "/img/icons/common/dusecaSoftware.jpg",
-		date: "Jan 2022 – Mar 2022",
-		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
+		date: "Septem 2022",
+		desc: "I'm still work as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
 		// descBullets: [
 		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
 		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -261,10 +261,10 @@ export const experience = [
 	},
 	{
 		role: "Full Stack Developer",
-		company: "Bleed-AI",
+		company: "Freelancer",
 		companylogo: "/img/icons/common/bleedAI.jpg",
-		date: "Sept 2021 - Oct 2021",
-		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
+		date: " 2021 Dec - 2202 Apr",
+		desc: "Worked as MERN web developer to create a E-Learn website ",
 	},
 	{
 		role: "Backend Developer",
@@ -277,30 +277,30 @@ export const experience = [
 
 export const projects = [
 	{
-		name: "developer-portfolio",
+		name: "Modern portfoli Template",
 		desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-		github: "https://github.com/1hanzla100/developer-portfolio",
-		link: "https://developer-portfolio-1hanzla100.vercel.app/",
+		github: "https://github.com/MhdGmal1998/portfolios",
+		link: "https://portfolios-pnw5sai16-mhdgmal1998.vercel.app/",
 	},
-	{
-		name: "AtlasMart",
-		desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
-		github: "https://github.com/1hanzla100/Django-React-Marketplace",
-	},
-	{
-		name: "Technota (Forum)",
-		desc: "Get hands-on experience in technical skills with Technota",
-		github: "https://github.com/1hanzla100/django-react-forum",
-	},
+	// {
+	// 	name: "AtlasMart",
+	// 	desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
+	// 	github: "https://github.com/1hanzla100/Django-React-Marketplace",
+	// },
+	// {
+	// 	name: "Technota (Forum)",
+	// 	desc: "Get hands-on experience in technical skills with Technota",
+	// 	github: "https://github.com/1hanzla100/django-react-forum",
+	// },
 	{
 		name: "E-Blind",
 		desc: "ReactJS Wibsite to help Blinds to identifys the contents of website through voice",
 		github: "https://github.com/MhdGmal1998/e-blind.git",
 	},
 	{
-		name:"Dashboard Material UI",
-		desc:"Get hands-on experiance in Material Design concepts",
-		github:"https://github.com/MhdGmal1998/meta-dash.git"
+		name: "Dashboard Material UI",
+		desc: "Get hands-on experiance in Material Design concepts",
+		github: "https://github.com/MhdGmal1998/meta-dash.git"
 	}
 ];
 
