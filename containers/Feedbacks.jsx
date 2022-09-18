@@ -21,7 +21,7 @@ const Feedbacks = () => {
 					</div>
 				</div>
 				<Row className="row-grid align-items-center">
-					{feedbacks.map((data, i) => {
+					{feedbacks?.map((data, i) => {
 						return (
 							<Col key={i} lg={6}>
 								<FeedbackCard data={data} />
