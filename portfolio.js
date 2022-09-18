@@ -293,7 +293,7 @@ export const projects = [
 		name: "E-Blind",
 		desc: "ReactJS Wibsite to help Blinds to identifys the contents of website through voice",
 		github: "https://github.com/MhdGmal1998/e-blind.git",
-		link: "https://e-blind-mhdgmal1998.vercel.app/"
+		// link: "https://e-blind-mhdgmal1998.vercel.app/"
 	},
 	{
 		name: "Dashboard Material UI",
