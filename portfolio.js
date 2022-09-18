@@ -301,6 +301,11 @@ export const projects = [
 		name: "Dashboard Material UI",
 		desc: "Get hands-on experiance in Material Design concepts",
 		github: "https://github.com/MhdGmal1998/meta-dash.git"
+	},
+	{
+		name: "Educational Application",
+		desc: "Get ready to pass Exam in Yemen University",
+		googlePaly: "https://play.google.com/store/apps/details?id=com.metalearn"
 	}
 ];
 
@@ -323,7 +328,7 @@ export const seoData = {
 	description:
 		"I'm passionate Full Stack web developer having an experience of web applications with NodeJS, Laravel, React.js, Next.js and Mobile Application developer with React Native and Flutter",
 	author: "Mohammed Alhomaidi",
-	image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
+	image: "https://avatars3.githubusercontent.com/u/MhdGmal1998?v=4",
 	url: "https://github.com/MhdGmal1998/",
 	keywords: [
 		"Mohammed",
@@ -336,3 +341,4 @@ export const seoData = {
 		"Mohammed Alhomaidi Portfolio",
 	],
 }
+
