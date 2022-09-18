@@ -17,7 +17,7 @@ const ProjectsCard = ({ data }) => {
 								{
 									data.googlePaly && <Button
 										className="btn-icon"
-										color="github"
+										color="googleplay"
 										href={data.googlePaly}
 										target="_blank"
 										rel="noopener"
