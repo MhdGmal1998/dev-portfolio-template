@@ -277,7 +277,7 @@ export const projects = [
 		name: "Modern portfoli Template",
 		desc: "Software Developer Portfolio Template built with react.js, next.js and bootstrap that helps you showcase your work and skills as a software developer.",
 		github: "https://github.com/MhdGmal1998/portfolios",
-		link: "https://portfolios-pnw5sai16-mhdgmal1998.vercel.app/",
+		link: "https://mohammedalhomaidi.vercel.app/",
 	},
 	// {
 	// 	name: "AtlasMart",
@@ -293,11 +293,13 @@ export const projects = [
 		name: "E-Blind",
 		desc: "ReactJS Wibsite to help Blinds to identifys the contents of website through voice",
 		github: "https://github.com/MhdGmal1998/e-blind.git",
+		link: "https://e-blind-mhdgmal1998.vercel.app/"
 	},
 	{
 		name: "Dashboard Material UI",
 		desc: "Get hands-on experiance in Material Design concepts",
-		github: "https://github.com/MhdGmal1998/meta-dash.git"
+		github: "https://github.com/MhdGmal1998/meta-dash.git",
+		link: "https://meta-dash-mhdgmal1998.vercel.app/"
 	},
 	{
 		name: "Educational Application in RN",

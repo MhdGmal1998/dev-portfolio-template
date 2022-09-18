@@ -10,7 +10,7 @@ import {
 	Button,
 } from "reactstrap";
 
-import { Fade } from "react-reveal";
+import { Fade,Flip } from "react-reveal";
 import { Icon } from "@iconify/react";
 
 const ExperienceCard = ({ data }) => {
@@ -19,8 +19,7 @@ const ExperienceCard = ({ data }) => {
 			<Fade left duration={2000}>
 				<Card
 					style={{ flex: 1 }}
-					className="shadow-lg--hover mb-3 shadow border-0 text-center rounded"
-				>
+					className="shadow-lg--hover mb-3 shadow border-0 text-center rounded">
 					<CardBody className="">
 						<img
 							src={data.companylogo}
