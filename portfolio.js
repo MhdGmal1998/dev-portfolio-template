@@ -274,7 +274,7 @@ export const experience = [
 
 export const projects = [
 	{
-		name: "Modern portfoli Template",
+		name: "Modern Portfolio Template",
 		desc: "Software Developer Portfolio Template built with react.js, next.js and bootstrap that helps you showcase your work and skills as a software developer.",
 		github: "https://github.com/MhdGmal1998/portfolios",
 		link: "https://mohammedalhomaidi.vercel.app/",
@@ -299,7 +299,7 @@ export const projects = [
 		name: "Dashboard Material UI",
 		desc: "Get hands-on experiance in Material Design concepts",
 		github: "https://github.com/MhdGmal1998/meta-dash.git",
-		link: "https://meta-dash-mhdgmal1998.vercel.app/"
+		// link: "https://meta-dash-mhdgmal1998.vercel.app/"
 	},
 	{
 		name: "Educational Application in RN",
