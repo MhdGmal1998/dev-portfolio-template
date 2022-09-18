@@ -3,6 +3,7 @@ import React from "react";
 import { Card, CardBody, Col, Button } from "reactstrap";
 
 import { Fade } from "react-reveal";
+import { Icon } from "@iconify/react";
 
 const ProjectsCard = ({ data }) => {
 	return (
@@ -17,15 +18,14 @@ const ProjectsCard = ({ data }) => {
 								{
 									data.googlePaly && <Button
 										className="btn-icon"
-										color="googleplay"
+										color="gitnub"
 										href={data.googlePaly}
 										target="_blank"
 										rel="noopener"
-										aria-label="Github"
-									>
-										<span className="btn-inner--icon">
-											<i className="fa fa-google-play" />
-										</span>
+										aria-label="googleplay">
+										<Icon icon='logos:google-play-icon' fontSize={22}>
+
+										</Icon>
 									</Button>
 								}
 								{data.github ? (

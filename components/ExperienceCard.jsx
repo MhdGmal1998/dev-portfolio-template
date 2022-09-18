@@ -7,9 +7,11 @@ import {
 	CardSubtitle,
 	CardText,
 	Col,
+	Button,
 } from "reactstrap";
 
 import { Fade } from "react-reveal";
+import { Icon } from "@iconify/react";
 
 const ExperienceCard = ({ data }) => {
 	return (
@@ -51,12 +53,34 @@ const ExperienceCard = ({ data }) => {
 							<ul>
 								{data.descBullets
 									? data.descBullets.map((desc) => {
-											return <li key={desc}>{desc}</li>;
-									  })
+										return <li key={desc}>{desc}</li>;
+									})
 									: null}
 							</ul>
 						</CardText>
+						{
+							data.linkedin && <Button
+								className="btn-icon"
+								color="#0077b5"
+								href={data.linkedin}
+								target="_blank"
+								rel="noopener" aria-label="Twitter"
+								style={{
+									padding:8,
+									float:'left'
+								}}
+								
+							>
+								
+								<Icon icon='logos:linkedin-icon'
+								fontSize={24}
+								>
+
+								</Icon>
+							</Button>
+						}
 					</CardBody>
+
 				</Card>
 			</Fade>
 		</Col>

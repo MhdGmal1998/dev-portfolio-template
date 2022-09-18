@@ -16,7 +16,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	url: "https://github.com/MhdGmal1998",
+	url: "https://mohammedalhomaidi.vercel.app/",
 	linkedin: "https://www.linkedin.com/in/metawees/",
 	github: "https://github.com/MhdGmal1998",
 	instagram: "https://www.instagram.com/q_4dd",
@@ -66,14 +66,10 @@ export const skillsSection = {
 					skillName: "Nextjs",
 					fontAwesomeClassname: "vscode-icons:file-type-light-next",
 				},
-				{
-					skillName: "jset",
-					fontAwesomeClassname: "logos:jest"
-				},
-				{
-					skillName: "Python",
-					fontAwesomeClassname: "logos:python",
-				},
+				// {
+				// 	skillName: "Python",
+				// 	fontAwesomeClassname: "logos:python",
+				// },
 				// {
 				// 	skillName: "Django",
 				// 	fontAwesomeClassname: "vscode-icons:file-type-django",
@@ -173,7 +169,7 @@ export const skillsSection = {
 					"⚡ Experience in developing Systems "
 				),
 				emoji(
-					"⚡ Building Scripts for automated testing & deployment "
+					"⚡ Building Scripts for testing in ReactJS and React Native "
 				),
 				// emoji(
 				// 	"⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
@@ -181,31 +177,31 @@ export const skillsSection = {
 				// emoji(
 				// 	"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
 				// ),
-				emoji(
-					"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
-				),
+				// emoji(
+				// 	"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
+				// ),
 			],
 			softwareSkills: [
 				{
-					skillName: "Ethereum",
-					fontAwesomeClassname: "logos:ethereum",
+					skillName: "jset library",
+					fontAwesomeClassname: "logos:jest"
 				},
 				{
-					skillName: "Solidity",
-					fontAwesomeClassname: "logos:solidity",
+					skillName: "drawio",
+					fontAwesomeClassname: "vscode-icons:file-type-drawio",
 				},
 				{
-					skillName: "Web3js",
-					fontAwesomeClassname: "logos:web3js",
+					skillName: "Enzyme",
+					fontAwesomeClassname: "healthicons:enzyme",
 				},
-				{
-					skillName: "Metamask",
-					fontAwesomeClassname: "logos:metamask-icon",
-				},
-				{
-					skillName: "Ganache",
-					fontAwesomeClassname: "logos:ganache-icon",
-				},
+				// {
+				// 	skillName: "Metamask",
+				// 	fontAwesomeClassname: "logos:metamask-icon",
+				// },
+				// {
+				// 	skillName: "Ganache",
+				// 	fontAwesomeClassname: "logos:ganache-icon",
+				// },
 			],
 		},
 	],
@@ -244,16 +240,17 @@ export const experience = [
 	{
 		role: "Frontend Developer",
 		company: "Intellitech IT Smart Consulting",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
+		companylogo: "/img/icons/common/Intellitech.png",
 		date: "September 2022 ",
 		desc: "I'm working as  frontend web developer to design web based admin dashboards for mulitple apps using React.JS, MUI, Node.js and some other libraries.",
+		linkedin: "https://www.linkedin.com/company/intellitech-it-smart-consulting/about/"
 	},
 	{
 		role: "API Engineer",
-		company: "Noor E-Commerce",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
+		company: "Noor",
+		companylogo: "/img/icons/common/noor.jpg",
 		date: "Septem 2022",
-		desc: "I'm still work as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
+		desc: "I'm still working as API Engineer on noor application company. Noor is E-Commerce Application works based on Coupon, It's Still under Development",
 		// descBullets: [
 		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
 		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -262,7 +259,7 @@ export const experience = [
 	{
 		role: "Full Stack Developer",
 		company: "Freelancer",
-		companylogo: "/img/icons/common/bleedAI.jpg",
+		companylogo: "/img/icons/common/teachme.jpg",
 		date: " 2021 Dec - 2202 Apr",
 		desc: "Worked as MERN web developer to create a E-Learn website ",
 	},
@@ -278,7 +275,7 @@ export const experience = [
 export const projects = [
 	{
 		name: "Modern portfoli Template",
-		desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
+		desc: "Software Developer Portfolio Template built with react.js, next.js and bootstrap that helps you showcase your work and skills as a software developer.",
 		github: "https://github.com/MhdGmal1998/portfolios",
 		link: "https://portfolios-pnw5sai16-mhdgmal1998.vercel.app/",
 	},
@@ -303,7 +300,7 @@ export const projects = [
 		github: "https://github.com/MhdGmal1998/meta-dash.git"
 	},
 	{
-		name: "Educational Application",
+		name: "Educational Application in RN",
 		desc: "Get ready to pass Exam in Yemen University",
 		googlePaly: "https://play.google.com/store/apps/details?id=com.metalearn"
 	}
@@ -328,7 +325,7 @@ export const seoData = {
 	description:
 		"I'm passionate Full Stack web developer having an experience of web applications with NodeJS, Laravel, React.js, Next.js and Mobile Application developer with React Native and Flutter",
 	author: "Mohammed Alhomaidi",
-	image: "https://avatars3.githubusercontent.com/u/MhdGmal1998?v=4",
+	image: "https://avatars.githubusercontent.com/u/90135545?v=4",
 	url: "https://github.com/MhdGmal1998/",
 	keywords: [
 		"Mohammed",
@@ -341,4 +338,3 @@ export const seoData = {
 		"Mohammed Alhomaidi Portfolio",
 	],
 }
-

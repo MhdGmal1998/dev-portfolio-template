@@ -6,6 +6,8 @@ import SocialLinks from "../components/SocialLinks";
 import Image from "next/image";
 
 const GithubProfileCard = ({ prof }) => {
+
+	console.log(prof.avatar_url)
 	return (
 		<Card className="section-lg bg-gradient-info shadow-lg border-0">
 			<Container className="">
