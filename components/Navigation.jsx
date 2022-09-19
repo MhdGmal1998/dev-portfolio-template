@@ -141,7 +141,7 @@ const Navigation = () => {
 											href={socialLinks.whatsapp}
 											target="_blank"
 										>
-											<i class="fa fa-whatsapp" aria-hidden="true"></i>
+											<i className="fa fa-whatsapp" aria-hidden="true"></i>
 											<span className="nav-link-inner--text d-lg-none ml-2">
 												Whatsapp
 											</span>
