@@ -1,3 +1,4 @@
+import { Icon } from "@iconify/react";
 import React from "react";
 
 import { Button } from "reactstrap";
@@ -76,7 +77,7 @@ const SocialLinks = () => {
 						<i className="fa fa-facebook-square" />
 					</span>
 				</Button>
-			)}	
+			)}
 			{socialLinks.twitter && (
 				<Button
 					className="btn-icon-only rounded-circle"
@@ -88,6 +89,40 @@ const SocialLinks = () => {
 				>
 					<span className="btn-inner--icon">
 						<i className="fa fa-twitter" />
+					</span>
+				</Button>
+			)}
+			{socialLinks.whatsapp && (
+				// <Icon icon="logos:whatsapp-icon"
+				// fontSize={30}
+				// style={{
+				// 	margin:"4px"
+				// }}
+				// >
+
+				// </Icon>
+				<Button
+					className="btn-icon-only rounded-circle"
+					style={{
+						backgroundColor: "#25d366",
+						border: "0px",
+						// display:'flex'
+					}}
+					// color="#128c7e"
+					href={socialLinks.whatsapp}
+					target="_blank"
+					rel="noopener"
+					aria-label="Whatsapp"
+				>
+
+					<span className="btn-inner--icon">
+						<i class="fa fa-whatsapp" aria-hidden="true"
+							style={{
+								color:"white",
+								fontSize: "20px",
+								marginTop: '8px'
+							}}
+						/>
 					</span>
 				</Button>
 			)}

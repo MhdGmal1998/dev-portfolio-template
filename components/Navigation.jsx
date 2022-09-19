@@ -4,6 +4,8 @@ import React, { useState, useEffect } from "react";
 import { greetings, socialLinks } from "../portfolio";
 import Headroom from "headroom.js";
 import Link from "next/link";
+import Switch from '@mui/material/Switch';
+
 import {
 	UncontrolledCollapse,
 	NavbarBrand,
@@ -14,7 +16,12 @@ import {
 	Container,
 	Row,
 	Col,
+	Button,
+	Input,
+	FormGroup,
 } from "reactstrap";
+import DarkTheme from './DarkTheme'
+import { Icon } from "@iconify/react";
 
 const Navigation = () => {
 	const [collapseClasses, setCollapseClasses] = useState("");
@@ -40,8 +47,25 @@ const Navigation = () => {
 						<div style={{
 							display: 'flex',
 							justifyContent: 'space-between',
-							width:'100%'
+							width: '100%',
+							alignItems: 'center'
 						}}>
+							<div style={{
+								display: 'flex',
+								alignItems: 'center'
+							}}>
+								{/* <Switch /> */}
+								<DarkTheme />
+								{/* <Icon icon="ic:twotone-light-mode"
+									fontSize={24}
+									color="white"
+									style={{
+										cursor: 'pointer'
+									}}
+								/> */}
+
+
+							</div>
 							<div>
 								<NavbarBrand href="/" className="mr-lg-5">
 									<h3 className="text-white" id="nav-title">
@@ -58,6 +82,7 @@ const Navigation = () => {
 									<span className="navbar-toggler-icon" />
 								</button>
 							</div>
+
 						</div>
 						<UncontrolledCollapse
 							toggler="#navbar_global"
@@ -107,6 +132,22 @@ const Navigation = () => {
 										</NavLink>
 									</NavItem>
 								)}
+								{socialLinks.whatsapp && (
+									<NavItem>
+										<NavLink
+											rel="noopener"
+											aria-label="Facebook"
+											className="nav-link-icon"
+											href={socialLinks.whatsapp}
+											target="_blank"
+										>
+											<i class="fa fa-whatsapp" aria-hidden="true"></i>
+											<span className="nav-link-inner--text d-lg-none ml-2">
+												Whatsapp
+											</span>
+										</NavLink>
+									</NavItem>
+								)}
 								{socialLinks.instagram && (
 									<NavItem>
 										<NavLink
@@ -119,38 +160,6 @@ const Navigation = () => {
 											<i className="fa fa-instagram" />
 											<span className="nav-link-inner--text d-lg-none ml-2">
 												Instagram
-											</span>
-										</NavLink>
-									</NavItem>
-								)}
-								{socialLinks.github && (
-									<NavItem>
-										<NavLink
-											rel="noopener"
-											aria-label="Github"
-											className="nav-link-icon"
-											href={socialLinks.github}
-											target="_blank"
-										>
-											<i className="fa fa-github" />
-											<span className="nav-link-inner--text d-lg-none ml-2">
-												Github
-											</span>
-										</NavLink>
-									</NavItem>
-								)}
-								{socialLinks.linkedin && (
-									<NavItem>
-										<NavLink
-											rel="noopener"
-											aria-label="Linkedin"
-											className="nav-link-icon"
-											href={socialLinks.linkedin}
-											target="_blank"
-										>
-											<i className="fa fa-linkedin" />
-											<span className="nav-link-inner--text d-lg-none ml-2">
-												Linkedin
 											</span>
 										</NavLink>
 									</NavItem>
@@ -171,6 +180,40 @@ const Navigation = () => {
 										</NavLink>
 									</NavItem>
 								)}
+
+								{socialLinks.linkedin && (
+									<NavItem>
+										<NavLink
+											rel="noopener"
+											aria-label="Linkedin"
+											className="nav-link-icon"
+											href={socialLinks.linkedin}
+											target="_blank"
+										>
+											<i className="fa fa-linkedin" />
+											<span className="nav-link-inner--text d-lg-none ml-2">
+												Linkedin
+											</span>
+										</NavLink>
+									</NavItem>
+								)}
+								{socialLinks.github && (
+									<NavItem>
+										<NavLink
+											rel="noopener"
+											aria-label="Github"
+											className="nav-link-icon"
+											href={socialLinks.github}
+											target="_blank"
+										>
+											<i className="fa fa-github" />
+											<span className="nav-link-inner--text d-lg-none ml-2">
+												Github
+											</span>
+										</NavLink>
+									</NavItem>
+								)}
+
 							</Nav>
 						</UncontrolledCollapse>
 					</Container>

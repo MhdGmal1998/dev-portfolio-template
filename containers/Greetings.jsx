@@ -12,7 +12,9 @@ const Greetings = () => {
 		document.scrollingElement.scrollTop = 0;
 	});
 	return (
-		<main>
+		<main style={{
+			// backgroundColor:'black'
+		}}>
 			<div className="position-relative">
 				<section className="section section-lg section-shaped pb-250">
 					<div className="shape shape-style-1 bg-gradient-info">
@@ -51,6 +53,7 @@ const Greetings = () => {
 											</span>
 										</Button>
 									</div>
+									
 								</Col>
 								<Col lg="6">
 									<GreetingLottie animationPath="/lottie/coding.json" />

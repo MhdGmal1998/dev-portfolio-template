@@ -22,6 +22,7 @@ export const socialLinks = {
 	instagram: "https://www.instagram.com/q_4dd",
 	facebook: "https://www.facebook.com/metawees1",
 	twitter: "https://twitter.com/metawees1",
+	whatsapp: "https://wa.me/00967771511569"
 };
 
 export const skillsSection = {
