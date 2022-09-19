@@ -116,7 +116,7 @@ const SocialLinks = () => {
 				>
 
 					<span className="btn-inner--icon">
-						<i class="fa fa-whatsapp" aria-hidden="true"
+						<i className="fa fa-whatsapp" aria-hidden="true"
 							style={{
 								color:"white",
 								fontSize: "20px",
