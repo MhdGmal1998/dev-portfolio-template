@@ -46,8 +46,9 @@ const Navigation = () => {
 					<Container>
 						<div style={{
 							display: 'flex',
-							justifyContent: 'space-between',
-							width: '100%',
+							justifyContent: 'space-around',
+							width: '96%',
+							margin: '1%',
 							alignItems: 'center'
 						}}>
 							<div style={{
