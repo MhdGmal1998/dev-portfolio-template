@@ -48,12 +48,15 @@ const Navigation = () => {
 							display: 'flex',
 							justifyContent: 'space-around',
 							width: '96%',
-							margin: '1%',
+							marginLeft: '2%',
+							marginRight:'2%',
 							alignItems: 'center'
 						}}>
 							<div style={{
 								display: 'flex',
-								alignItems: 'center'
+								alignItems: 'center',
+								paddingLeft:'2px',
+								paddingRight:'2px'
 							}}>
 								{/* <Switch /> */}
 								<DarkTheme />
