@@ -68,9 +68,9 @@ const Navigation = () => {
 							</div>
 							<div>
 								<NavbarBrand href="/" className="mr-lg-5">
-									<h3 className="text-white" id="nav-title">
+									<h4 className="text-white" id="nav-title">
 										{greetings.name}
-									</h3>
+									</h4>
 								</NavbarBrand>
 							</div>
 							<div>
