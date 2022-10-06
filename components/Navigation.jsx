@@ -52,24 +52,18 @@ const Navigation = () => {
 							marginRight:'2%',
 							alignItems: 'center'
 						}}>
-							<div style={{
+							{/* <div style={{
 								display: 'flex',
 								alignItems: 'center',
 								paddingLeft:'2px',
 								paddingRight:'2px'
 							}}>
-								{/* <Switch /> */}
+								
 								<DarkTheme />
-								{/* <Icon icon="ic:twotone-light-mode"
-									fontSize={24}
-									color="white"
-									style={{
-										cursor: 'pointer'
-									}}
-								/> */}
+								
 
 
-							</div>
+							</div> */}
 							<div>
 								<NavbarBrand href="/" className="mr-lg-5">
 									<h4 className="text-white" id="nav-title">

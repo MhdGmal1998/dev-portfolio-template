@@ -4,19 +4,19 @@ export const greetings = {
 	name: "Mohammed Alhomaidi",
 	title: "Hi all, I'm Mohammed",
 	description:
-		"I'm passionate Full Stack web developer having an experience of web applications with NodeJS, Laravel, React.js, Next.js and Mobile Application developer with React Native and Flutter",
+		"I'm passionate Full Stack web developer having an experience of web applications with NodeJS, Laravel, React.js, Next.js and Mobile Application developer with React Native",
 	resumeLink:
-		"https://drive.google.com/file/d/1IXs9lhvUS1Whm7QtgsU1GLHPZJNAkT4S/view?usp=sharing",
-};
+		"https://drive.google.com/file/d/1VTp-IMZ58AS3ZPBo3sH5fr6D4crz1LGj/view?usp=sharing",
+}
 
 export const openSource = {
 	githubUserName: "MhdGmal1998",
-};
+}
 
 export const contact = {};
 
 export const socialLinks = {
-	url: "https://mohammedalhomaidi.vercel.app/",
+	url: "http://mohammedalhomaidi.metawees.com/",
 	linkedin: "https://www.linkedin.com/in/metawees/",
 	github: "https://github.com/MhdGmal1998",
 	instagram: "https://www.instagram.com/q_4dd",
@@ -167,7 +167,7 @@ export const skillsSection = {
 			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
-					"⚡ Experience in developing Systems "
+					"⚡ Experience in developing Systems with Agile methodology"
 				),
 				emoji(
 					"⚡ Building Scripts for testing in ReactJS and React Native "
@@ -195,14 +195,14 @@ export const skillsSection = {
 					skillName: "Enzyme",
 					fontAwesomeClassname: "healthicons:enzyme",
 				},
-				// {
-				// 	skillName: "Metamask",
-				// 	fontAwesomeClassname: "logos:metamask-icon",
-				// },
-				// {
-				// 	skillName: "Ganache",
-				// 	fontAwesomeClassname: "logos:ganache-icon",
-				// },
+				{
+					skillName: "Jira Software",
+					fontAwesomeClassname: "logos:jira",
+				},
+				{
+					skillName: "Trello",
+					fontAwesomeClassname: "logos:trello",
+				},
 			],
 		},
 	],
